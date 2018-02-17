@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pocket advisor</title>
+	  	<meta charset="utf-8">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<div id="content">
+			<div id="intro" class="step jumbotron">
+				<h1>pocket advisor</h1>
+				<p>
+					you are new to the fabulous world of pocket operators, and you don't know which one to choose first ?
+				</p>	
+				<p>
+					or you just can't decide which pocket operator you'll buy next ?
+				</p>
+				<p>
+					poocket advisor is here to help find the best pocket operator for you !
+				</p>
+
+				<button type="button" class="btn">continue</button>
+			</div>
+			<div class="step jumbotron form-group" id="owned-step">
+				<div class="container">
+					<span class="question">first of all, which P.O. do you own?</span>
+					
+					<div id="owned-po-div"></div>
+
+					<button type="button" class="btn">continue</button>
+				</div>
+			</div>
+			<div class="step jumbotron form-group" id="budget-step">
+				<span class="question">what is your budget?</span>
+
+				<div  class="form-check">
+					<input class="form-check-input" required name="budget" id="budget60" type="radio" value="60"/>
+					<label class="form-check-label" for="budget60">below 60€</label>
+				</div>
+				<div  class="form-check">
+					<input class="form-check-input" required name="budget" id="budget70" type="radio" value="70"/>
+					<label class="form-check-label" for="budget70">between 60€ and 70€</label>
+				</div>
+				<div  class="form-check">
+					<input class="form-check-input" required name="budget" id="budget100" type="radio" value="100"/>
+					<label class="form-check-label" for="budget100">doesn't matter</label>
+				</div>
+
+				<button type="button" class="btn">continue</button>
+			</div>
+			<div class="step jumbotron form-group" id="standalone-step">
+				<span class="question">do you want a real all-in-one pocket operator?</span>
+
+				<div  class="form-check">
+					<input class="form-check-input" required name="standalone" id="standalone-yes" type="radio" value="yes"/>
+					<label class="form-check-label" for="standalone-yes">oh yeah !</label>
+				</div>
+				<div  class="form-check">
+					<input class="form-check-input" required name="standalone" id="standalone-wtv" type="radio" value="no"/>
+					<label class="form-check-label" for="standalone-wtv">i don't care</label>
+				</div>
+
+				<button type="button" class="btn">Continue</button>
+			</div>
+			<div class="step jumbotron form-group" id="main-feature-step">
+				<span class="question">what feature do you want the most from your pocket operator?</span>
+
+				<div id="features-div">
+
+				</div>
+				<button type="button" class="btn">continue</button>
+			</div>
+			<div class="step jumbotron" id="result-div">
+				you probably need the ...
+
+				<div id="po-result">
+					<h2 id="po-name"></h2>
+
+					<div id="po-left">
+						<img id="po-image">
+					</div>
+
+					<div id="po-right">
+						<div id="po-description"></div>
+
+						<audio controls id="po-audio">
+						  <source src="" type="audio/mpeg">
+						  Your browser does not support the audio element.
+						</audio>
+					</div>
+				</div>
+			</div>
+			<div class="step jumbotron" id="no-result-div">
+				<p>we're sorry, but we can't found any pocket operator for you.</p>
+				<p>maybe retry and adjust some of your answers</p>
+			</div>
+
+		</div>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="pos.json"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

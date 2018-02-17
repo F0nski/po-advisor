@@ -1,0 +1,108 @@
+var pos = {
+	"12": {
+		"name": "PO-12 Rhythm",
+		"main_features": [
+			"drums"
+		],
+		"price": "69",
+		"description": "16 sound drum machine and sequencer, perfect for making beats. parameter locks and punch-in effects.",
+		"color": "#2c663c",
+		"image": "54a7557fc7530702005257b3_1024.png",
+		"audio": "569678eed2932403000d7a7e_original.mp3"
+	},
+	"14": {
+		"name": "PO-14 Sub",
+		"main_features": [
+			"bass"
+		],
+		"price": "59",
+		"description": "deep bass line synthesizer with sequencer, parameter locks, play styles and punch-in effects.",
+		"color": "#2C70B5",
+		"image": "54a7533cc7530702005257af_1024.png",
+		"audio": "569678f0d2932403000d7a84_original.mp3"
+	},
+	"16": {
+		"name": "PO-16 Factory",
+		"main_features": [
+			"lead"
+		],
+		"price": "69",
+		"description": "lead synthesizer for keys melodies. sequencer with parameter locks, play styles and punch-in effects.",
+		"color": "#E06337",
+		"image": "54a75363c7530702005257b1_1024.png",
+		"audio": "569678f0d2932403000d7a88_original.mp3"
+	},
+	"20": {
+		"name": "PO-20 Arcade",
+		"main_features": [
+			"chords"
+		],
+		"price": "69",
+		"description": "arcade synthesizer and sequencer, with parameter locks, chord control and punch-in effects.",
+		"standalone": true,
+		"color": "#6E3AAE",
+		"image": "568be206bc9fa103000ab818_1024.png",
+		"audio": "569678efd2932403000d7a82_original.mp3"
+	},
+	"24": {
+		"name": "PO-24 Office",
+		"main_features": [
+			"drums"
+		],
+		"secondary_features": [
+			"noise drums"
+		],
+		"price": "59",
+		"description": "noise percussion drum machine and sequencer, with parameter locks, solo functionality and punch-in effects.",
+		"color": "#F1B642",
+		"image": "568be2d7bc9fa103000ab820_1024.png",
+		"audio": "569678f0d2932403000d7a86_original.mp3"
+	},
+	"28": {
+		"name": "PO-28 Robot",
+		"main_features": [
+			"lead"
+		],
+		"price": "69",
+		"description": "live synthesizer and sequencer, with parameter locks, glide control and punch-in effects.",
+		"color": "#B72C35",
+		"image": "568be68ebc9fa103000ab826_1024.png",
+		"audio": "569678efd2932403000d7a80_original.mp3"
+	},
+	"32": {
+		"name": "PO-32 Tonic",
+		"main_features": [
+			"drums"
+		],
+		"price": "99",
+		"description": "drum and percussion synthesizer and sequencer with parameter locks, punch-in effects and unlimited sounds with microtonic vst through data transfer.",
+		"microtonic": true,
+		"color": "#FFFFFF",
+		"image": "58590931b6e2c40400ebcae2_1024.png",
+		"audio": "58748e7c76bb3c0400e66e12_original.mp3"
+	},
+	"33": {
+		"name": "PO-33 K.O!",
+		"main_features": [
+			"sampler"
+		],
+		"price": "99",
+		"description": "micro sampler with 40 seconds sample memory and built-in recording microphone.",
+		"standalone": true,
+		"color": "#ED6038",
+		"image": "5a60d346b60527000460c0fb_1024.png",
+		"audio": "5a606d7639c7260004541240_original.mp3"
+	},
+	"35": {
+		"name": "PO-35 Speak",
+		"main_features": [
+			"vocal synth"
+		],
+		"price": "99",
+		"description": "vocal synthesizer and sequencer with built-in microphone for 8 different voice character sampling.",
+		"microtonic": true,
+		"color": "#367E7F",
+		"image": "5a3b7253557c8c0004e3365d_1024.png",
+		"audio": "5a606e4f39c7260004541242_original.mp3"
+	}
+}
