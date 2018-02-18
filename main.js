@@ -211,13 +211,6 @@ showResults = function(final = false) {
 	for (var i in remaining) {
 		let po = remaining[i];
 
-		// THere is only one case where there is multiple result.
-		// For the rhythm and the tonic
-		// So, we keep the microtonic one.
-		if (size > 1 && !po.microtonic) {
-			continue;
-		}
-
 		$('#po-name').html(po.name);
 		$('#po-description').html(po.description);
 		$('#po-image').attr('src', 'images/' + po.image);
@@ -229,7 +222,6 @@ showResults = function(final = false) {
 	
 		scrollToDiv('result-div');
 
-		return true;
 	}
 }
 
